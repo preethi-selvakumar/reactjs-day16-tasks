@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+
+.App h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* task4 */
+.page {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.page h1 {
+    color: #007bff;
+    font-size: 2.5rem;
+}
+
+.page p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* task5 */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #6a0dad;
+    padding: 1rem;
+    gap: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navbar a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+.home-page {
+    background-color: #e3f2fd;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.about-page {
+    background-color: #fff3e0;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+/* task6 */
+.task6 {
+    padding: 2rem;
+    background-color: #fffaf0;
+}
+
+.task6 h1 {
+    color: #6d214f;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+}
+
+.task6-navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #3b3b98;
+    padding: 1rem;
+    border-radius: 8px;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.task6-navbar a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.task6-navbar a:hover {
+    color: #ffda79;
+}
+
+.task6-page {
+    background-color: #f8effa;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+.dashboard-page h2 {
+    color: #182C61;
+}
+
+.settings-page h2 {
+    color: #9b59b6;
+}
+
+.task6-page p {
+    font-size: 1.1rem;
+    color: #34495e;
+}
+
+/* task8 */
+.notfound-page {
+    text-align: center;
+    padding: 3rem;
+    color: #c0392b;
+    background-color: #fdecea;
+    border-radius: 12px;
+    margin: 2rem auto;
+    width: 80%;
+    font-size: 1.2rem;
+}
+
+/* task9 */
+/* Task 9 Navigation Bar */
+.task9-navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #00897b;
+    /* Teal */
+    padding: 1rem;
+    gap: 2rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+
+/* Task 9 Nav Links */
+.task9-navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: 0.3s ease;
+}
+
+/* Active Link Styling */
+.task9-navbar .active {
+    color: #ffd700;
+    /* Gold */
+    border-bottom: 2px solid #ffd700;
+}
+
+/* Task 9 Home Page */
+.home-page {
+    background-color: #e0f7fa;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+/* Task 9 About Page */
+.about-page {
+    background-color: #fce4ec;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.home-page h1,
+.about-page h1 {
+    font-size: 2.5rem;
+    color: #00695c;
+}
+
+.home-page p,
+.about-page p {
+    font-size: 1.2rem;
+    color: #444;
+}
+
+/* task10 */
+.task10-about {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.task10-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.task10-nav li a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+}
+
+.task10-outlet {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.task10-company,
+.task10-team {
+    padding: 10px;
+}
+
+/* task11 */
+.task11-container {
+    padding: 25px;
+    background-color: #e6f7ff;
+    border: 1px solid #b3e0ff;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.task11-buttons {
+    margin-top: 20px;
+}
+
+.task11-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #0080ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.task11-buttons button:hover {
+    background-color: #0059b3;
+}
+
+/* task12 */
+.task12-navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: #282c34;
+}
+
+.task12-navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.task12-navbar a.active {
+    background-color: #61dafb;
+    color: #282c34;
+}
+
+/* task13 */
+.task13-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.task13-access {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.task13-denied {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* miniproject 1 */
+.mp1-navbar {
+    background: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.mp1-navbar a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.mp1-active {
+    background: #61dafb;
+    color: #333;
+}
+
+.mp1-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 1rem;
+}
+
+.mp1-section {
+    background: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.mp1-section h1 {
+    margin-top: 0;
+    color: #222;
+}
+
+.mp1-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.mp1-form input,
+.mp1-form textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.mp1-form button {
+    width: 150px;
+    padding: 0.8rem;
+    border: none;
+    background: #61dafb;
+    color: #333;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mp1-form button:hover {
+    background: #52c1e8;
+}
+
+/* miniproject 2 */
+.mp2-navbar {
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #444;
+}
+
+.nav-link.active {
+    background-color: #61dafb;
+    color: #000;
+}
+
+/* miniproject 3 */
+.blog-layout {
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+}
+
+.blog-nav {
+    margin: 20px 0;
+}
+
+.blog-nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.blog-nav a.active {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.blog-content {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+/* miniproject 4 */
+.mp4-navbar {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    background: #333;
+    padding: 12px;
+}
+
+.mp4-link {
+    color: #eee;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.mp4-link:hover {
+    background-color: #444;
+}
+
+.mp4-link.active {
+    background-color: #ffca28;
+    color: #000;
+}
+
+.mp4-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fafafa;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.mp4-page h2 {
+    margin-bottom: 14px;
+    color: #333;
+}
+
+.mp4-page p {
+    color: #555;
+    font-size: 16px;
+}
+
+.mp4-product-list {
+    list-style: none;
+    padding: 0;
+}
+
+.mp4-product-list li {
+    padding: 8px 0;
+    font-size: 16px;
+}
